@@ -2,30 +2,32 @@
 
 **2D Shape Calculator Mobile App** is an Android application designed to calculate various measurements of 2D geometric shapes.
 
-The application was developed using **Android Studio** with **Java** as the programming language. This project focuses on implementing geometric calculation logic into a simple and user-friendly mobile application.
+The application was developed using **Android Studio** with **Java** as the programming language, providing a simple and structured interface for performing geometric calculations efficiently.
 
 ## 📱 About the Project
 
-This application was created to help users perform basic calculations for various 2D geometric shapes.
+This application provides a practical way to calculate measurements for various 2D geometric shapes.
 
-Users can select a shape, enter the required values, and the application will calculate and display the result based on the corresponding mathematical formula.
+Users can select a shape, enter the required dimensions, and receive calculation results based on the corresponding mathematical formulas.
+
+The application combines calculation logic with a straightforward mobile interface to provide an accessible and consistent user experience.
 
 ## ✨ Features
 
-Some of the features available in this application include:
+Key features and implementations include:
 
-* Selection of 2D geometric shapes
-* Input values based on the selected shape
-* Automatic calculations
-* Display of calculation results
+* Selection of various 2D geometric shapes
+* Dynamic input fields based on the selected shape
+* Automatic geometric calculations
+* Calculation result display
 * Basic input validation
-* Simple and user-friendly interface
+* Simple and intuitive user interface
 * Navigation between application pages
-* Implementation of geometric formulas in an Android application
+* Implementation of geometric formulas using Java
 
 ## 📐 Supported Shapes
 
-The application can be used to calculate various 2D shapes, such as:
+The application supports calculations for various 2D geometric shapes, including:
 
 * Square
 * Rectangle
@@ -51,17 +53,16 @@ The main technologies used in this project are:
 
 This project was developed to:
 
-* Learn the fundamentals of Android application development
-* Implement calculation logic using Java
-* Understand Android Activities and layouts
-* Handle user input and output
-* Develop application interfaces using XML
-* Practice event handling in Android
-* Implement mathematical formulas in a mobile application
+* Provide an accessible mobile solution for 2D geometric calculations
+* Deliver accurate calculations based on predefined mathematical formulas
+* Provide a simple and intuitive interface for entering geometric dimensions
+* Implement structured input validation and calculation processing
+* Maintain clear navigation and consistent interface behavior
+* Provide a functional Android-based tool for common geometric calculations
 
 ## 📜 License
 
-This project was created for learning, skill development, and portfolio documentation purposes.
+This project is maintained for portfolio, reference, and development purposes.
 
 ---
 
