@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Screen -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.calgeo.ui.home.HomeFragment"
+        android:label="@string/home_title">
+
+        <!-- Home -> Calculator -->
+        <action
+            android:id="@+id/action_homeFragment_to_calculatorFragment"
+            app:destination="@id/calculatorFragment" />
+
+        <!-- Home -> About -->
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+
+    </fragment>
+
+    <!-- Calculator Screen -->
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.calgeo.ui.calculator.CalculatorFragment"
+        android:label="@string/calculator_title">
+
+        <!--
+            Shape type selected from HomeFragment.
+
+            Example values:
+            SQUARE
+            RECTANGLE
+            TRIANGLE
+            CIRCLE
+            PARALLELOGRAM
+            TRAPEZOID
+            RHOMBUS
+            KITE
+        -->
+        <argument
+            android:name="shapeType"
+            app:argType="string"
+            app:nullable="false" />
+
+    </fragment>
+
+    <!-- About Screen -->
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.calgeo.ui.about.AboutFragment"
+        android:label="@string/about_title" />
+
+</navigation>

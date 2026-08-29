@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/shape_card_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:minHeight="@dimen/shape_card_min_height"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="@dimen/shape_card_corner_radius"
+    app:cardElevation="@dimen/shape_card_elevation"
+    app:strokeColor="@color/card_border"
+    app:strokeWidth="@dimen/shape_card_stroke_width">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shape_card_min_height"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/shape_card_content_padding_horizontal"
+        android:paddingTop="@dimen/shape_card_content_padding_vertical"
+        android:paddingEnd="@dimen/shape_card_content_padding_horizontal"
+        android:paddingBottom="@dimen/shape_card_content_padding_vertical">
+
+        <!-- Shape Icon -->
+        <ImageView
+            android:id="@+id/image_shape"
+            android:layout_width="@dimen/shape_icon_card_size"
+            android:layout_height="@dimen/shape_icon_card_size"
+            android:contentDescription="@string/shape_icon"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/ic_square" />
+
+        <!-- Shape Name -->
+        <TextView
+            android:id="@+id/text_shape_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/shape_icon_name_spacing"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/shape_title"
+            android:textSize="@dimen/shape_name_text_size"
+            android:textStyle="bold"
+            tools:text="Square" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

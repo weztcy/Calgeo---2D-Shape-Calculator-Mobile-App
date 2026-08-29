@@ -1,10 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- ========================================================= -->
+    <!-- PRIMARY BRAND COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="primary">#1D4ED8</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="primary_container">#E8F0FF</color>
+    <color name="on_primary_container">#102A56</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SECONDARY COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="secondary">#334155</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="secondary_container">#E8EDF3</color>
+    <color name="on_secondary_container">#1E293B</color>
+
+
+    <!-- ========================================================= -->
+    <!-- APPLICATION BACKGROUND -->
+    <!-- ========================================================= -->
+
+    <color name="background">#F7F9FC</color>
+    <color name="on_background">#111827</color>
+
+    <!-- Home page remains light -->
+    <color name="home_background">#F5F7FB</color>
+
+
+    <!-- ========================================================= -->
+    <!-- HERO CARD -->
+    <!-- ========================================================= -->
+
+    <!-- Master premium navy -->
+    <color name="home_hero_background">#0F1F3D</color>
+
+    <color name="home_hero_accent">#3B82F6</color>
+
+    <color name="home_hero_title">#FFFFFF</color>
+
+    <color name="home_hero_subtitle">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SURFACE COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#111827</color>
+
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface_variant">#64748B</color>
+
+
+    <!-- ========================================================= -->
+    <!-- PREMIUM CARD COLORS -->
+    <!-- ========================================================= -->
+
+    <!--
+        Semua card premium yang menggunakan card_background
+        akan memakai warna yang sama dengan Hero Card.
+    -->
+    <color name="card_background">#0F1F3D</color>
+
+    <color name="card_secondary_background">#0F1F3D</color>
+
+    <!-- Sedikit lebih terang untuk state selected -->
+    <color name="card_selected_background">#172A4D</color>
+
+    <!-- Border card -->
+    <color name="card_border">#29415F</color>
+
+    <!-- Text khusus di dalam card gelap -->
+    <color name="card_text_primary">#FFFFFF</color>
+
+    <color name="card_text_secondary">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- NORMAL PAGE TEXT COLORS -->
+    <!-- ========================================================= -->
+
+    <!-- Tetap gelap karena background halaman Light Mode terang -->
+    <color name="text_primary">#111827</color>
+
+    <color name="text_secondary">#64748B</color>
+
+    <color name="text_tertiary">#94A3B8</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE CARD TEXT -->
+    <!-- ========================================================= -->
+
+    <!-- Card shape sekarang navy -->
+    <color name="shape_title">#FFFFFF</color>
+
+    <color name="shape_subtitle">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- BORDER AND DIVIDER -->
+    <!-- ========================================================= -->
+
+    <color name="outline">#DDE3EC</color>
+
+    <color name="divider">#E8ECF2</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE ICON -->
+    <!-- ========================================================= -->
+
+    <!-- Bright outline on navy card -->
+    <color name="shape_stroke">#60A5FA</color>
+
+    <!-- Dark blue fill -->
+    <color name="shape_fill">#193A66</color>
+
+    <!-- Slightly lighter than the main card -->
+    <color name="shape_icon_background">#172E50</color>
+
+    <color name="shape_icon_accent">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- HERO FEATURE ITEMS -->
+    <!-- ========================================================= -->
+
+    <color name="feature_background">#172A4D</color>
+
+    <color name="feature_text">#E2E8F0</color>
+
+    <color name="feature_icon">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT BUTTON -->
+    <!-- ========================================================= -->
+
+    <!-- Same navy family as Hero Card -->
+    <color name="home_about_button_background">#0F1F3D</color>
+
+    <color name="home_about_button_text">#FFFFFF</color>
+
+    <color name="home_about_button_border">#29415F</color>
+
+
+    <!-- ========================================================= -->
+    <!-- RESULT CARD -->
+    <!-- ========================================================= -->
+
+    <!-- Untuk digunakan pada fragment_calculator.xml berikutnya -->
+    <color name="result_card_background">#0F1F3D</color>
+
+    <color name="result_card_border">#29415F</color>
+
+    <color name="result_card_title">#FFFFFF</color>
+
+    <color name="result_card_text">#CBD5E1</color>
+
+    <color name="result_card_value">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT CARD -->
+    <!-- ========================================================= -->
+
+    <!-- Untuk digunakan pada fragment_about.xml berikutnya -->
+    <color name="about_card_background">#0F1F3D</color>
+
+    <color name="about_card_border">#29415F</color>
+
+    <color name="about_card_title">#FFFFFF</color>
+
+    <color name="about_card_text">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SUCCESS COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="success">#15803D</color>
+
+    <color name="success_container">#DCFCE7</color>
+
+    <color name="on_success_container">#14532D</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ERROR COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="error">#DC2626</color>
+
+    <color name="on_error">#FFFFFF</color>
+
+    <color name="error_container">#FEE2E2</color>
+
+    <color name="on_error_container">#7F1D1D</color>
+
+
+    <!-- ========================================================= -->
+    <!-- COMMON COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
 </resources>

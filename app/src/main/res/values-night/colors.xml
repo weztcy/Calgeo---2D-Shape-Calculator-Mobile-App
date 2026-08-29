@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- PRIMARY BRAND COLORS - DARK MODE -->
+    <!-- ========================================================= -->
+
+    <color name="primary">#60A5FA</color>
+    <color name="on_primary">#0F172A</color>
+
+    <color name="primary_container">#1E3A8A</color>
+    <color name="on_primary_container">#DBEAFE</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SECONDARY COLORS - DARK MODE -->
+    <!-- ========================================================= -->
+
+    <color name="secondary">#CBD5E1</color>
+    <color name="on_secondary">#1E293B</color>
+
+    <color name="secondary_container">#334155</color>
+    <color name="on_secondary_container">#F1F5F9</color>
+
+
+    <!-- ========================================================= -->
+    <!-- APPLICATION BACKGROUND - DARK MODE -->
+    <!-- ========================================================= -->
+
+    <color name="background">#08111F</color>
+    <color name="on_background">#F8FAFC</color>
+
+    <color name="home_background">#08111F</color>
+
+
+    <!-- ========================================================= -->
+    <!-- HERO CARD -->
+    <!-- ========================================================= -->
+
+    <color name="home_hero_background">#0F1F3D</color>
+
+    <color name="home_hero_accent">#60A5FA</color>
+
+    <color name="home_hero_title">#FFFFFF</color>
+
+    <color name="home_hero_subtitle">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SURFACE COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="surface">#08111F</color>
+    <color name="on_surface">#F8FAFC</color>
+
+    <color name="surface_variant">#0F1F3D</color>
+    <color name="on_surface_variant">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- PREMIUM CARD COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="card_background">#0F1F3D</color>
+
+    <color name="card_secondary_background">#0F1F3D</color>
+
+    <color name="card_selected_background">#172A4D</color>
+
+    <color name="card_border">#29415F</color>
+
+    <color name="card_text_primary">#FFFFFF</color>
+
+    <color name="card_text_secondary">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- NORMAL PAGE TEXT COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="text_primary">#FFFFFF</color>
+
+    <color name="text_secondary">#CBD5E1</color>
+
+    <color name="text_tertiary">#94A3B8</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE CARD TEXT -->
+    <!-- ========================================================= -->
+
+    <color name="shape_title">#FFFFFF</color>
+
+    <color name="shape_subtitle">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- BORDER AND DIVIDER -->
+    <!-- ========================================================= -->
+
+    <color name="outline">#29415F</color>
+
+    <color name="divider">#29415F</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE ICON -->
+    <!-- ========================================================= -->
+
+    <color name="shape_stroke">#60A5FA</color>
+
+    <color name="shape_fill">#193A66</color>
+
+    <color name="shape_icon_background">#172E50</color>
+
+    <color name="shape_icon_accent">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- HERO FEATURE ITEMS -->
+    <!-- ========================================================= -->
+
+    <color name="feature_background">#172A4D</color>
+
+    <color name="feature_text">#E2E8F0</color>
+
+    <color name="feature_icon">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT BUTTON -->
+    <!-- ========================================================= -->
+
+    <color name="home_about_button_background">#0F1F3D</color>
+
+    <color name="home_about_button_text">#FFFFFF</color>
+
+    <color name="home_about_button_border">#29415F</color>
+
+
+    <!-- ========================================================= -->
+    <!-- RESULT CARD -->
+    <!-- ========================================================= -->
+
+    <color name="result_card_background">#0F1F3D</color>
+
+    <color name="result_card_border">#29415F</color>
+
+    <color name="result_card_title">#FFFFFF</color>
+
+    <color name="result_card_text">#CBD5E1</color>
+
+    <color name="result_card_value">#60A5FA</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT CARD -->
+    <!-- ========================================================= -->
+
+    <color name="about_card_background">#0F1F3D</color>
+
+    <color name="about_card_border">#29415F</color>
+
+    <color name="about_card_title">#FFFFFF</color>
+
+    <color name="about_card_text">#CBD5E1</color>
+
+
+    <!-- ========================================================= -->
+    <!-- SUCCESS COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="success">#4ADE80</color>
+
+    <color name="success_container">#14532D</color>
+
+    <color name="on_success_container">#DCFCE7</color>
+
+
+    <!-- ========================================================= -->
+    <!-- ERROR COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="error">#FCA5A5</color>
+
+    <color name="on_error">#450A0A</color>
+
+    <color name="error_container">#7F1D1D</color>
+
+    <color name="on_error_container">#FEE2E2</color>
+
+
+    <!-- ========================================================= -->
+    <!-- COMMON COLORS -->
+    <!-- ========================================================= -->
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
+</resources>

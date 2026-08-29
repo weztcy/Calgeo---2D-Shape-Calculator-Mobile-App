@@ -1,3 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aplikasi Kalkulator Bidang Datar</string>
+
+    <!-- ========================================================= -->
+    <!-- APPLICATION -->
+    <!-- ========================================================= -->
+
+    <string name="app_name">2D Geometry Calculator</string>
+
+
+    <!-- ========================================================= -->
+    <!-- GENERAL -->
+    <!-- ========================================================= -->
+
+    <string name="back">Back</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+
+
+    <!-- ========================================================= -->
+    <!-- PREMIUM HOME SCREEN -->
+    <!-- ========================================================= -->
+
+    <!-- Hero -->
+    <string name="home_badge">2D GEOMETRY CALCULATOR</string>
+
+    <string name="home_hero_title">Geometry made simple.</string>
+
+    <string name="home_hero_subtitle">
+        Calculate area and perimeter with fast, accurate, and simple inputs for effortless geometry shape.
+    </string>
+
+    <!-- Hero Features -->
+    <string name="home_feature_shapes">Shapes</string>
+    <string name="home_feature_calculations">Area &amp; Perimeter</string>
+    <string name="home_feature_offline">Offline Ready</string>
+
+    <!-- Shape Section -->
+    <string name="home_section_title">Geometric Shape</string>
+
+    <string name="home_section_subtitle">
+        Choose a shape to begin calculation.
+    </string>
+
+    <!-- Compatibility with previous Home layout -->
+    <string name="home_title">2D Geometry Calculator</string>
+    <string name="home_subtitle">Select a shape to calculate</string>
+    <string name="select_shape">Select Shape</string>
+
+    <!-- Shape Card -->
+    <string name="shape_card_description">Area &amp; Perimeter</string>
+    <string name="shape_card_circle_description">Area &amp; Circumference</string>
+    <string name="shape_icon">Shape icon</string>
+
+    <!-- Home Footer -->
+    <string name="home_about">About this app</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SUPPORTED SHAPE NAMES -->
+    <!-- ========================================================= -->
+
+    <string name="shape_square">Square</string>
+    <string name="shape_rectangle">Rectangle</string>
+    <string name="shape_triangle">Triangle</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_parallelogram">Parallelogram</string>
+    <string name="shape_trapezoid">Trapezoid</string>
+    <string name="shape_rhombus">Rhombus</string>
+    <string name="shape_kite">Kite</string>
+
+
+    <!-- ========================================================= -->
+    <!-- CALCULATOR SCREEN -->
+    <!-- ========================================================= -->
+
+    <string name="calculator_title">Calculator</string>
+
+    <string name="enter_measurements">Measurements</string>
+
+    <string name="measurement_description">
+        Enter the required value below.
+    </string>
+
+    <string name="calculation_result">Calculation Result</string>
+    <string name="result">Result</string>
+
+
+    <!-- ========================================================= -->
+    <!-- CALCULATION RESULT -->
+    <!-- ========================================================= -->
+
+    <string name="area">Area</string>
+    <string name="perimeter">Perimeter</string>
+    <string name="circumference">Circumference</string>
+
+    <string name="result_placeholder">0.00</string>
+
+    <string name="result_value_format">%1$s</string>
+
+    <string name="area_result_format">%1$s square units</string>
+
+    <string name="perimeter_result_format">%1$s units</string>
+
+
+    <!-- ========================================================= -->
+    <!-- DYNAMIC INPUT LABELS -->
+    <!-- ========================================================= -->
+
+    <string name="input_side">Side</string>
+    <string name="input_length">Length</string>
+    <string name="input_width">Width</string>
+    <string name="input_base">Base</string>
+    <string name="input_height">Height</string>
+    <string name="input_radius">Radius</string>
+
+    <string name="input_side_a">Side A</string>
+    <string name="input_side_b">Side B</string>
+    <string name="input_side_c">Side C</string>
+    <string name="input_side_d">Side D</string>
+
+    <string name="input_base_a">Base A</string>
+    <string name="input_base_b">Base B</string>
+
+    <string name="input_diagonal_1">Diagonal 1</string>
+    <string name="input_diagonal_2">Diagonal 2</string>
+
+
+    <!-- ========================================================= -->
+    <!-- DYNAMIC INPUT HINTS -->
+    <!-- ========================================================= -->
+
+    <string name="hint_side">Enter side length</string>
+    <string name="hint_length">Enter length</string>
+    <string name="hint_width">Enter width</string>
+    <string name="hint_base">Enter base length</string>
+    <string name="hint_height">Enter height</string>
+    <string name="hint_radius">Enter radius</string>
+
+    <string name="hint_side_a">Enter side A</string>
+    <string name="hint_side_b">Enter side B</string>
+    <string name="hint_side_c">Enter side C</string>
+    <string name="hint_side_d">Enter side D</string>
+
+    <string name="hint_base_a">Enter base A</string>
+    <string name="hint_base_b">Enter base B</string>
+
+    <string name="hint_diagonal_1">Enter diagonal 1</string>
+    <string name="hint_diagonal_2">Enter diagonal 2</string>
+
+
+    <!-- ========================================================= -->
+    <!-- INPUT VALIDATION -->
+    <!-- ========================================================= -->
+
+    <string name="error_required">This field is required</string>
+
+    <string name="error_invalid_number">
+        Enter a valid number
+    </string>
+
+    <string name="error_positive_number">
+        Value must be greater than 0
+    </string>
+
+    <string name="error_invalid_triangle">
+        The entered sides do not form a valid triangle
+    </string>
+
+    <string name="error_calculation_failed">
+        Unable to calculate the result
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE DESCRIPTIONS -->
+    <!-- ========================================================= -->
+
+    <string name="square_description">
+        Calculate the area and perimeter of a square.
+    </string>
+
+    <string name="rectangle_description">
+        Calculate the area and perimeter of a rectangle.
+    </string>
+
+    <string name="triangle_description">
+        Calculate the area and perimeter of a triangle.
+    </string>
+
+    <string name="circle_description">
+        Calculate the area and circumference of a circle.
+    </string>
+
+    <string name="parallelogram_description">
+        Calculate the area and perimeter of a parallelogram.
+    </string>
+
+    <string name="trapezoid_description">
+        Calculate the area and perimeter of a trapezoid.
+    </string>
+
+    <string name="rhombus_description">
+        Calculate the area and perimeter of a rhombus.
+    </string>
+
+    <string name="kite_description">
+        Calculate the area and perimeter of a kite.
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT SCREEN -->
+    <!-- ========================================================= -->
+
+    <string name="about_title">About</string>
+
+    <string name="about_app_name">
+        Calgeo
+    </string>
+
+    <string name="about_description">
+        An Android application for calculating the area and perimeter of common 2D geometric shapes.
+    </string>
+
+    <string name="supported_shapes_title">
+        Supported Shapes
+    </string>
+
+    <string name="supported_shapes_list">Square\nRectangle\nTriangle\nCircle\nParallelogram\nTrapezoid\nRhombus\nKite</string>
+
+    <string name="built_with_title">
+        Built With
+    </string>
+
+    <string name="built_with_description">
+        Java, XML, AndroidX, and Material Design
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- ACCESSIBILITY -->
+    <!-- ========================================================= -->
+
+    <string name="content_description_square">Square shape</string>
+
+    <string name="content_description_rectangle">Rectangle shape</string>
+
+    <string name="content_description_triangle">Triangle shape</string>
+
+    <string name="content_description_circle">Circle shape</string>
+
+    <string name="content_description_parallelogram">Parallelogram shape</string>
+
+    <string name="content_description_trapezoid">Trapezoid shape</string>
+
+    <string name="content_description_rhombus">Rhombus shape</string>
+
+    <string name="content_description_kite">Kite shape</string>
+
+    <string name="content_description_back">Navigate back</string>
+
 </resources>

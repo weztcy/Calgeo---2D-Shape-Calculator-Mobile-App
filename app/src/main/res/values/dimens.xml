@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- GENERAL SPACING -->
+    <!-- ========================================================= -->
+
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xxxl">40dp</dimen>
+    <dimen name="spacing_huge">48dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- SCREEN -->
+    <!-- ========================================================= -->
+
+    <dimen name="screen_padding_horizontal">20dp</dimen>
+    <dimen name="screen_padding_vertical">20dp</dimen>
+
+    <dimen name="home_padding_horizontal">20dp</dimen>
+    <dimen name="home_padding_bottom">32dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- TYPOGRAPHY -->
+    <!-- ========================================================= -->
+
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_body_small">14sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_subtitle">18sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_large_title">28sp</dimen>
+    <dimen name="text_size_result">24sp</dimen>
+
+    <!-- Home Typography -->
+    <dimen name="home_eyebrow_text_size">12sp</dimen>
+    <dimen name="home_hero_title_size">30sp</dimen>
+    <dimen name="home_hero_subtitle_size">15sp</dimen>
+    <dimen name="home_section_title_size">20sp</dimen>
+    <dimen name="home_section_subtitle_size">14sp</dimen>
+
+    <!-- Shape Card Typography -->
+    <dimen name="shape_name_text_size">16sp</dimen>
+    <dimen name="shape_description_text_size">12sp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- PREMIUM HOME HERO -->
+    <!-- ========================================================= -->
+
+    <dimen name="home_hero_margin_horizontal">16dp</dimen>
+    <dimen name="home_hero_margin_top">16dp</dimen>
+
+    <dimen name="home_hero_padding_horizontal">22dp</dimen>
+    <dimen name="home_hero_padding_vertical">24dp</dimen>
+
+    <dimen name="home_hero_corner_radius">28dp</dimen>
+
+    <dimen name="home_hero_min_height">210dp</dimen>
+
+    <dimen name="home_hero_title_max_width">300dp</dimen>
+
+    <dimen name="home_hero_badge_height">30dp</dimen>
+    <dimen name="home_hero_badge_corner_radius">15dp</dimen>
+    <dimen name="home_hero_badge_padding_horizontal">12dp</dimen>
+
+    <dimen name="home_hero_feature_margin_top">22dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- FEATURE ITEMS -->
+    <!-- ========================================================= -->
+
+    <dimen name="feature_item_spacing">8dp</dimen>
+
+    <dimen name="feature_item_padding_horizontal">12dp</dimen>
+    <dimen name="feature_item_padding_vertical">10dp</dimen>
+
+    <dimen name="feature_item_corner_radius">14dp</dimen>
+
+    <dimen name="feature_icon_size">18dp</dimen>
+    <dimen name="feature_text_size">12sp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- HOME SECTION -->
+    <!-- ========================================================= -->
+
+    <dimen name="home_section_margin_top">28dp</dimen>
+
+    <dimen name="home_section_header_margin_horizontal">20dp</dimen>
+
+    <dimen name="home_grid_margin_top">12dp</dimen>
+
+    <dimen name="home_grid_padding_horizontal">12dp</dimen>
+
+    <dimen name="home_grid_padding_bottom">24dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE CARD -->
+    <!-- ========================================================= -->
+
+    <dimen name="shape_card_height">150dp</dimen>
+
+    <!-- Card dibuat lebih pendek karena subtitle dihapus -->
+    <dimen name="shape_card_min_height">150dp</dimen>
+
+    <dimen name="shape_card_corner_radius">22dp</dimen>
+
+    <dimen name="shape_card_elevation">1dp</dimen>
+
+    <dimen name="shape_card_margin">7dp</dimen>
+
+    <dimen name="shape_card_padding">16dp</dimen>
+
+    <dimen name="shape_card_content_padding_horizontal">16dp</dimen>
+
+    <dimen name="shape_card_content_padding_vertical">18dp</dimen>
+
+    <dimen name="shape_card_stroke_width">1dp</dimen>
+
+    <!-- Jarak ikon ke nama shape -->
+    <dimen name="shape_icon_name_spacing">12dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- SHAPE ICON -->
+    <!-- ========================================================= -->
+
+    <dimen name="shape_icon_size">80dp</dimen>
+
+    <!-- Calculator page icon -->
+    <dimen name="shape_icon_large_size">120dp</dimen>
+
+    <dimen name="shape_icon_padding">8dp</dimen>
+
+    <!-- Ikon pada Home dibuat sedikit lebih besar -->
+    <dimen name="shape_icon_card_size">82dp</dimen>
+
+    <!-- Kept for compatibility -->
+    <dimen name="shape_icon_container_size">88dp</dimen>
+
+    <dimen name="shape_icon_container_radius">24dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- TOOLBAR -->
+    <!-- ========================================================= -->
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="toolbar_icon_size">24dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- BUTTON -->
+    <!-- ========================================================= -->
+
+    <dimen name="button_height">52dp</dimen>
+
+    <dimen name="button_corner_radius">16dp</dimen>
+
+    <dimen name="button_padding_horizontal">20dp</dimen>
+
+    <dimen name="button_padding_vertical">12dp</dimen>
+
+    <dimen name="home_about_button_height">44dp</dimen>
+
+    <dimen name="home_about_button_corner_radius">14dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- INPUT FIELD -->
+    <!-- ========================================================= -->
+
+    <dimen name="input_field_min_height">56dp</dimen>
+
+    <dimen name="input_field_spacing">12dp</dimen>
+
+    <dimen name="input_corner_radius">12dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- RESULT CARD -->
+    <!-- ========================================================= -->
+
+    <dimen name="result_card_corner_radius">20dp</dimen>
+
+    <dimen name="result_card_padding">20dp</dimen>
+
+    <dimen name="result_card_margin_top">24dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- RECYCLER VIEW -->
+    <!-- ========================================================= -->
+
+    <dimen name="recycler_item_spacing">8dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- DIVIDER -->
+    <!-- ========================================================= -->
+
+    <dimen name="divider_height">1dp</dimen>
+
+
+    <!-- ========================================================= -->
+    <!-- DECORATIVE ELEMENTS -->
+    <!-- ========================================================= -->
+
+    <dimen name="decorative_dot_small">6dp</dimen>
+
+    <dimen name="decorative_dot_medium">10dp</dimen>
+
+    <dimen name="home_bottom_space">24dp</dimen>
+
+</resources>
