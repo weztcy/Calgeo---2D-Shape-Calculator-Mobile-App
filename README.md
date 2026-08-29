@@ -60,25 +60,6 @@ This project was developed to:
 * Maintain clear navigation and consistent interface behavior
 * Provide a functional Android-based tool for common geometric calculations
 
-## 🚀 Future Development
-
-Several improvements and additional features are planned for future versions of **Calgeo**, including:
-
-* Support for additional 2D geometric shapes
-* Calculation history for previously performed calculations
-* Formula explanations for each geometric shape
-* Visual illustrations of shapes and their dimensions
-* Improved input validation and error handling
-* Support for different measurement units
-* Unit conversion functionality
-* Improved user interface and user experience
-* Responsive layout improvements for different screen sizes
-* Multi-language support
-* Save and share calculation results
-* Performance and code structure improvements
-
-These developments aim to make **Calgeo** more complete, user-friendly, and useful for educational and practical 2D geometric calculations.
-
 ## 📜 License
 
 This project is maintained for portfolio, reference, and development purposes.
