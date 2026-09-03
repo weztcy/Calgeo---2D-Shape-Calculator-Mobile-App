@@ -1,6 +1,6 @@
-# Calgeo — 2D Geometry Calculator Mobile App
+# Calgeo - 2D Geometry Calculator Mobile App
 
-**Calgeo — 2D Geometry Calculator Mobile App** is an Android application designed to calculate various measurements of 2D geometric shapes.
+**Calgeo - 2D Geometry Calculator Mobile App** is an Android application designed to calculate various measurements of 2D geometric shapes.
 
 The application was developed using **Android Studio** with **Java** as the programming language, providing a simple and structured interface for performing geometric calculations efficiently.
 
